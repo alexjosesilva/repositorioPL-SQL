@@ -1,0 +1,55 @@
+Orientações: A prova tem 9 questões, das quais pelo menos 6 devem ser respondidas. 
+Caso respondidas mais de 6, serão consideradas apenas as 6 com maior pontuação. 
+Cada questão respondida vale 1,33 pontos.
+Ao final, salvar um aquivo nomeado "Prova_SQL_<SEU NOME>.sql" e enviar no skype diretamente para Tiago Calado.
+
+Nota Prova:  / 8,0
+Nota Participação: 2,0
+
+
+1. Mostre todos os dados dos funcionários que foram admitidos após o ano 1997.
+
+
+2. Mostre os funcionários que não têm comissão com um aumento de 10% em seus salários 
+(arredonde os salários).
+
+
+3. Mostre os funcionários cujos nomes iniciem com J, K, L ou M. 
+
+
+
+4. Mostre todos os funcionários e indique, através de "Yes" (Sim) ou "No" (Não), se eles recebem
+ou não uma comissão.
+
+
+
+5. Mostre todos os funcionários que têm gerentes com um salário acima de US$ 15.000. Mostre
+os seguintes dados: nome do funcionário, nome do gerente, salário do gerente e classificação
+salarial do gerente.
+
+
+6. Mostre o número do departamento, o nome, o número de funcionários e o salário médio de
+todos os departamentos juntamente com os nomes, os salários e os cargos dos funcionários
+que trabalham em cada departamento. 
+
+
+
+7. Mostre o número do departamento e o menor salário do departamento com o maior
+salário médio. 
+
+
+
+8. Crie uma visão geral de aniversários com base na data de admissão dos funcionários.
+Classifique os aniversários em ordem crescente. Chame a visão (view) de ANIVERSARIOS
+
+
+
+9. Crie a tabela LOCATIONS_NAMED_INDEX com base na tabela
+abaixo. Nomeie o índice da coluna PRIMARY KEY como LOCATIONS_PK_IDX.
+
+COLUNA          Deptno     Dname
+Primary Key     Yes
+Datatype        Number     VARCHAR2
+Tamanho           4         30
+
+
